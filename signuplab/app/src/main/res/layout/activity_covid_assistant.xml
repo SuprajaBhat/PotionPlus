@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/yellow">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:text="GO CORONA"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="43sp" />
+<!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOGA"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="70sp"
+        android:textSize="30sp">
+
+
+    </TextView>
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        >
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:text="GUIDELINES"
+            android:textSize="20sp"></TextView>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="13dp"></Space>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/guidevaccine"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/vaccination"
+                        android:textAlignment="center"></ImageView>
+                    <!--
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VACCINATE YOUR SELVES"></TextView>
+-->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/guidemask"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/mask"></ImageView>
+
+                    <!--
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="WEAR YOUR MASK"></TextView>
+                -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/guidesanitise"
+                        android:layout_width="110sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/sanitiser">>
+                    </ImageView>
+                    <!--
+                                  <TextView
+                                      android:layout_width="wrap_content"
+                                      android:layout_height="wrap_content"
+                                      android:text="USE SANITISER"></TextView>
+                             -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/social_distancing"></ImageView>
+                    <!--
+                                          <TextView
+                                              android:layout_width="wrap_content"
+                                              android:layout_height="wrap_content"
+                                              android:text="MAINTAIN 6 FEET DISTANCE"></TextView>
+                                     -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        android:src="@drawable/isolate"></ImageView>
+                    <!--
+
+                                               <TextView
+                                                   android:layout_width="wrap_content"
+                                                   android:layout_height="wrap_content"
+                                                   android:text="ISOLATE YOUR SELVES"></TextView>
+                                          -->
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+                           <Space
+                               android:layout_width="match_parent"
+                               android:layout_height="13dp"></Space>
+
+                                   <TextView
+
+                                       android:layout_width="match_parent"
+                                       android:layout_height="wrap_content"
+                                       android:background="@drawable/shape"
+                                       android:ems="10"
+                                       android:fontFamily="sans-serif-condensed"
+                                       android:text="FOLLOW THESE PRINCIPLES"
+                                       android:textSize="20sp"></TextView>
+                                   <Space
+                                       android:layout_width="match_parent"
+                                       android:layout_height="13dp"></Space>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/princyoga"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/suryanamskar"></ImageView>
+                    <!--
+                                                                   <TextView
+                                                                       android:layout_width="wrap_content"
+                                                                       android:layout_height="wrap_content"
+                                                                       android:text="DO YOGA"></TextView>
+                                               -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/princpranayama"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/pranayayama"></ImageView>
+                    <!--
+
+                                                                                       <TextView
+                                                                                           android:layout_width="wrap_content"
+                                                                                           android:layout_height="wrap_content"
+                                                                                           android:text="PRACTICE PRANAYAMA"></TextView>
+                                                                   -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/princayu"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/ayurveda"></ImageView>
+
+                    <!--
+                                                                                          <TextView
+                                                                                              android:layout_width="wrap_content"
+                                                                                              android:layout_height="wrap_content"
+                                                                                              android:text="EAT HOT FOODS"></TextView>
+
+                                                                                          -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/hotfood"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/hotfood"></ImageView>
+                    <!--
+                                                                                         <TextView
+                                                                                             android:layout_width="wrap_content"
+                                                                                             android:layout_height="wrap_content"
+                                                                                             android:text="MAINTAIN 6 FEET DISTANCE"></TextView>
+                                                                                             -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/washveg"></ImageView>
+                    <!--
+                                                                                          <TextView
+                                                                                              android:layout_width="wrap_content"
+                                                                                              android:layout_height="wrap_content"
+                                                                                              android:text="WASH THOROUGHLY "></TextView>
+                                                                                              -->
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+                                                                               <Space
+                                                                                   android:layout_width="match_parent"
+                                                                                   android:layout_height="13dp"></Space>
+
+                                                                               <TextView
+
+                                                                                   android:layout_width="match_parent"
+                                                                                   android:layout_height="wrap_content"
+                                                                                   android:background="@drawable/shape"
+                                                                                   android:ems="10"
+                                                                                   android:fontFamily="sans-serif-condensed"
+                                                                                   android:text="MYTHS"
+                                                                                   android:textSize="20sp"></TextView>
+                                                                               <Space
+                                                                                   android:layout_width="match_parent"
+                                                                                   android:layout_height="13dp"></Space>
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mythMaget"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/myths5"></ImageView>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mythmosq"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/myths2"></ImageView>
+
+                    <!--
+                                                                                                               <TextView
+                                                                                                                   android:layout_width="wrap_content"
+                                                                                                                   android:layout_height="wrap_content"
+                                                                                                                   android:text="PRACTICE PRANAYAMA"></TextView>
+                                                                                           -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/mythvacc"
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/white"
+                        android:src="@drawable/myths4"></ImageView>
+                    <!--
+
+                                                                                                               <TextView
+                                                                                                                   android:layout_width="wrap_content"
+                                                                                                                   android:layout_height="wrap_content"
+                                                                                                                   android:text="EAT HOT FOODS"></TextView>
+
+                                                                                                               -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="130sp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="102dp"
+                        android:layout_height="130sp"
+                        android:background="@color/black"
+                        android:src="@drawable/myths1"></ImageView>
+                    <!--
+
+                                                                                              <TextView
+                                                                                                  android:layout_width="wrap_content"
+                                                                                                  android:layout_height="wrap_content"
+                                                                                                  android:text="MAINTAIN 6 FEET DISTANCE"></TextView>
+
+                                                                                              -->
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="137dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100sp"
+                        android:layout_height="130sp"
+                        android:background="@color/black"
+                        android:src="@drawable/myths3"></ImageView>
+
+                    <!--
+                                                                                              <TextView
+                                                                                                  android:layout_width="wrap_content"
+                                                                                                  android:layout_height="wrap_content"
+                                                                                                  android:text="WASH THOROUGHLY "></TextView>
+
+                                                                                                  -->
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+                                                                              </LinearLayout>
+                                                                          </RelativeLayout>
